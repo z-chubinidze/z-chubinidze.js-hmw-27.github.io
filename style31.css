@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family:'FiraGO-Regular';
+}
+@font-face{
+    font-family:'FiraGO-Regular';
+    src:url(FiraGO-Regular.ttf)
+}
+body{
+    height:100vh;
+    background: linear-gradient(45deg, #d2001a,#7462ff,#f48e21,#23d5ab );
+    background-size: 300% 300%;
+    animation: color 10s ease-in-out infinite
+}
+@keyframes color {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+#eye2 {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    cursor: pointer;
+}
+#eye {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    cursor: pointer ;
+}
+input{
+    height: 50px;
+}
+.btn{
+    height:40px !important;
+}
